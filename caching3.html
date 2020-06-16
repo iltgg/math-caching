@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Math Caching</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="scripts/script-caching-three.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/mathusummut/confetti.js/confetti.min.js"></script>
+</head>
+
+<body>
+
+    <div class="main-article">
+        <a href="index.html" class="home">↩ Home</a>
+        <h1 class="title">Math Caching</h1>
+        <h2>Chapter 7-8 Review</h2>
+        <span class="jump">Jump to <a href="#clue" class="jump-link">clue</a></span>
+        <p>
+            <strong>Congruent -</strong> Congruent figures have the same shape and size.<br>
+            <strong>Similar -</strong> Similar figures have the same shape but different sizes. Similar figures have
+            equal
+            corresponding
+            angles, and side ratios.
+        </p>
+
+
+        <p>
+            The scale factor, \(k\) relates the lengths of corresponding sides of similar figures.
+            <img src="images/similar.png" width="400"><br>
+            In triangle \(\triangle ABC\) and \(\triangle XYZ\)<br>
+            \(\frac{AB}{XY}=\frac{BC}{YZ}=\frac{CA}{XZ}=k\)<br>
+            Using this relation, side lengths of similar triangles can be solved.
+        </p>
+
+        <p>
+            In a right triangle the ratios of the sides to angles can be expressed in the three primary trigonometric
+            ratios, tangent, sin, and cosine, they are as follows:<br>
+            \(\tan\theta=\frac{\text{opposite}}{\text{adjacent}}, \sin\theta=\frac{\text{opposite}}{\text{hypotenuse}},
+            \cos\theta=\frac{\text{adjacent}}{\text{hypotenuse}}\)<br>
+            These can be remembered as SOHCAHTOA, if given the right angle of a triangle, and two other pieces of
+            information, the values of all the other sides and angles can be found.
+        </p>
+
+        <p>
+            <strong>Sin law -</strong> The sine law states that in an acute triangle, the value of a side divided by the
+            sin
+            of its opposite
+            angle, or vice versa will be the same for all angle side pairs.<br>
+            <img src="images/law.png" width="300"><br>
+            \(\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}\) or \(\frac{\sin A}{a}=\frac{\sin B}{b}=\frac{\sin
+            C}{c}\)
+        </p>
+
+        <p>
+            <strong>Cosine law -</strong> The cosine law relates the cosine of an angle to the three side length of an
+            acute
+            triangle.
+            <img src="images/law.png" width="300"><br>
+            \(a^2=b^2+c^2-2bc(\cos A)\)<br>
+            \(b^2=c^2+a^2-2bc(\cos B)\)<br>
+            \(c^2=a^2+b^2-2bc(\cos C)\)
+        </p>
+
+        <p>
+            Using trigonometry problems involving right, and acute triangles can be solved. Most of the time multiple
+            steps
+            will be required, and there may be more than one process of getting to the solution.
+        </p>
+
+        <h2 id="clue">Math Caching Clue</h2>
+        <ol>
+            <li>
+                In the prism below, the triangle bases are equilateral, find the length of the red dashed line to the nearest hundredth. <span class="mark">(4 marks)</span><br>
+                <img src="images/chapter-7-8-q1.png"><br>
+                <input type="text" placeholder="Answer to question one" class="answer-input one">
+            </li>
+            <br>
+            <li>
+                Below is a bridge design for a new wind turbine park, the engineers want to find the value of angle theta, but only have the dimensions listed below. What is the value of theta rounded to the nearest integer? Do not include degree
+                sign. <span class="mark">(6
+                    marks)</span><br>
+                <img src="images/chapter-7-8-q2.png"><br>
+                <input type="text" placeholder="Answer to question two" class="answer-input two">
+            </li>
+        </ol>
+        <input type="submit" class="submit" value="Check Answers">
+        <span class="correct">✔️ Correct! <a href="caching4.html" class="correct">Next page</a></span>
+        <span class="incorrect">❌ Incorrect, please try again.</span>
+        <div class="line"></div>
+        <input type="button" class="answer" value="View Answers">
+        <p class="answers">
+            <span class="answer-num">1.</span>
+            <span class="answer-part">
+                Since the bases of the prism are equilateral, we know that that the angle in between each sides must be 60°, we can identify the value of one of the sides as half of 8, as all sides are equal in an equilateral triangle.<br>
+                <img src="images/chapter-7-8-q1-b.png"><br>
+                The missing side can be found through either the sin or tangent ratio. We will use the sin ratio:<br>
+                <span class="equation">
+                    \begin{aligned}
+                    \sin\theta&=\frac{\text{opposite}}{\text{hypotenuse}}\\
+                    \sin(60)&=\frac{\text{opposite}}{8}\\
+                    4\sqrt{3}&=\text{opposite}
+                    \end{aligned}
+                </span><br>
+                <span class="mark">(1 mark)</span>
+            </span>
+            <br>
+            <span class="answer-part">
+                Now we use the sin ratio to find the red length:<br>
+                <span class="equation">
+                    \begin{aligned}
+                    \sin\theta&=\frac{\text{opposite}}{\text{hypotenuse}}\\
+                    \sin(52)&=\frac{4\sqrt{3}}{\text{hypotenuse}}\\
+                    8.792...&=\text{hypotenuse}
+                    \end{aligned}
+                </span><br>
+                <span class="mark">(1 mark)</span>
+            </span><br>
+            \(∴ \text{The length of the red line is 8.79}\)<span class="mark"> (2 marks)</span>
+            <br><br>
+            <span class="answer-num">2.</span>
+            <span class="answer-part">
+                The value of \(x\) can be found with the sin law:<br>
+                <img src="images/chapter-7-8-q2-b.png"><br>
+                <span class="equation">
+                    \begin{aligned}
+                    \frac{20}{\sin{(53)}}&=\frac{x}{\sin{(40)}}\\
+                    \frac{20}{\sin{(53)}}\cdot\sin{(40)}&=x\\
+                    16.09714573&=x
+                    \end{aligned}<br>
+                    <span class="mark">(1 mark)</span>
+                </span>
+            </span><br>
+            <span class="answer-part">
+                The value of \(y\) can be found through the cosine law, assign \(y\) to angle A to solve.<br>
+                <span class="equation">
+                    \begin{aligned}
+                    a^2&=b^2+c^2-2bc(\cos A)\\
+                    \cos^{-1}{\frac{a^2-b^2-c^2}{-2bc}}&=y\\
+                    \cos^{-1}{\frac{16.09714573^2-13^2-16^2}{-2(13)(16)}}&=y\\
+                    66.49965059&=y
+                    \end{aligned}
+                </span><br>
+                <span class="mark">(2 mark)</span>
+            </span>
+            <br>
+            <span class="answer-part">
+                Add \(y\) to 259.5, subtract the total from 360 to get θ:<br>
+                <span class="equation">
+                    \begin{aligned}
+                    θ&=360-(259.5+y)\\
+                    θ&=360-(259.5+66.49965059)\\
+                    θ&=34.00...
+                    \end{aligned}
+                </span><br>
+                <span class="mark">(1 mark)</span>
+            </span><br>
+            \(∴ \text{The angle of θ is 34°}\)<span class="mark"> (2 marks)</span>
+        </p>
+        <footer>
+            Benjamin Low<br>
+            MPM2D3-02<br>
+            2020/06/16
+        </footer>
+    </div>
+</body>
+
+</html>

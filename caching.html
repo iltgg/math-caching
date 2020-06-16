@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Math Caching</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="scripts/script-caching-one.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/mathusummut/confetti.js/confetti.min.js"></script>
+</head>
+
+<body>
+
+    <div class="main-article">
+        <a href="index.html" class="home">↩ Home</a>
+        <h1 class="title">Math Caching</h1>
+        <h2>Chapter 2-3 Review</h2>
+        <span class="jump">Jump to <a href="#clue" class="jump-link">clue</a></span>
+        <p>
+            <strong>Midpoint -</strong> Point that divides a line segment into two equal line segments.<br>
+            <strong>Equidistant -</strong> Equally distant.<br>
+            <strong>Bisector -</strong> The point or a line that divides a line or angle into two equal parts.<br>
+            <strong>Right Bisector -</strong>The line that passes through the midpoint of a line segment and intersects it
+            at a 90° angle.
+        </p>
+    
+        <p>
+            The average of the two opposite points of a line will give you the midpoint.<br>
+            <strong>Midpoint equation -</strong> \((\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})\)<br>
+            The length of a line segment can be deduced from the run, rise, and Pythagorean Theorem:<br>
+            \(run^2 + rise^2 = length^2\), isolating length gives the following equation:<br>
+            \(d=\sqrt{(run)^2+(rise)^2}\)<br>
+            This can also be represented in an equation using the points of the line.<br>
+            <strong>Length of a line segment -</strong> \(d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\)
+        </p>
+    
+        <p>
+            h and k represent how offset the center of the circle is from the origin.<br>
+            x and y represent a point on the circle.<br>
+            <strong>Equation of a circle -</strong> \((x-h)^2+(y-k)^2=r^2\)
+        </p>
+    
+        <p>
+            <strong>Concurrent -</strong> Meeting at a single point.<br>
+            <strong>Median -</strong> Line segment joining a vertex of a triangle to the midpoint of the opposite side,
+            bisects the area of the triangle.<br>
+            <strong>Altitude -</strong> The height of a geometric shape.<br>
+            <strong>Centroid -</strong> The point where the three medians of a triangle intersect, also the center of
+            mass.<br>
+            <strong>Circumcenter -</strong> The point of intersection of the three right bisectors of a triangle.<br>
+            <strong>Centroid -</strong> The point where the three medians of a triangle intersect.<br>
+            <strong>Incenter -</strong> The point at which the three angle bisectors of a triangle meet.<br>
+            <strong>Orthocenter -</strong> The point at which the three altitudes of a triangle meet.
+        </p>
+    
+        <dl>
+            <strong class="def-list-title">Quadrilateral Definitions:</strong>
+            <dt>Trapezoid:</dt>
+            <dd>- Only one set of parallel sides</dd>
+            <dt>Parallelogram:</dt>
+            <dd>- Opposite sides are congruent<br>
+                - Opposite sides are parallel<br>
+                - Diagonals bisect each other<br>
+                - Opposite angles are congruent
+            </dd>
+            <dt>Rectangle:</dt>
+            <dd>- All angles are 90°<br>
+                - Diagonals are congruent<br>
+                - All properties of parallelograms
+            </dd>
+            <dt>Rhombus:</dt>
+            <dd>- Diagonals bisect the angles<br>
+                - Diagonals are perpendicular<br>
+                - All sides are congruent<br>
+                - All properties of a parallelogram
+            </dd>
+            <dt>Square:</dt>
+            <dd>- All sides and diagonals are congruent<br>
+                - Sides are perpendicular to each other<br>
+                - All properties of rhombuses, rectangles, and parallelograms</dd>
+            <dt>Kite:</dt>
+            <dd>- Diagonals are perpendicular<br>
+                - All properties of parallelograms
+            </dd>
+        </dl>
+    
+        <p>
+            The diagonals of a parallelogram bisect each other.<br>
+            If you connect the adjacent midpoints of any quadrilateral you will get a parallelogram.<br>
+            The line segment that connects the two midpoints of the nonparallel sides of a trapezoid is parallel to the
+            parallel sides, and is equal to the mean of the lengths of the parallel sides
+        </p>
+    
+        <p>
+            <strong>Chord -</strong>A line segment joining two points on a curve.<br>
+            The right bisector of a chord of a circle passes through the circle's center, the point of intersection of two
+            right bisectors of different chords is the circle's center.<br>
+            Only one circle passes through three non-collinear points<br>
+            <strong>Circumcircle -</strong>A circumscribed circle is a circle that passes through all of the vertices of a
+            triangle, the
+            center of the circle is the circumcenter.<br>
+            <strong>Incircle -</strong>An inscribed circle is a circle that is tangent to each of the triangle's sides, the
+            center of the
+            circle is the incenter.
+        </p>
+    
+        <h2 id="clue">Math Caching Clue</h2>
+        <ol>
+            <li>
+                The diagram below shows a circle (black) that passes through points A, B, and C (blue). Point A lies in the
+                middle of points G and H (green). Find the radius of the circle. <span class="mark">(8 marks)</span>
+                <img src="images/chapter-2-3-q1.png" class="image" width="400" height="400"
+                    alt="Question One Diagram, try reloading the page"><br>
+                <input type="text" placeholder="Answer to question one" class="answer-input one">
+            </li>
+            <br>
+            <li>
+                Bob lives at (-8, 8) and Alice lives at (2, -4), the city is placing a wind turbine in their area, the
+                zoning laws state that it must be equally distant from each house. The wind turbine must also be built on an
+                existing power line, if the power line has an equation of \(y=-\frac{1}{2}x-7.5\) where must the wind
+                turbine be built? Input answer with two comma-space separated values in parentheses, e.g. (1, -1)
+                <span class="mark">(5 marks)</span><br>
+                <input type="text" placeholder="Answer to question two" class="answer-input two">
+            </li>
+        </ol>
+        <input type="submit" class="submit" value="Check Answers">
+        <span class="correct">✔️ Correct! <a href="caching2.html" class="correct">Next page</a></span>
+        <span class="incorrect">❌ Incorrect, please try again.</span>
+        <div class="line"></div>
+        <input type="button" class="answer" value="View Answers">
+        <p class="answers">
+            <span class="answer-num">1.</span><br>
+            <span class="answer-part">
+                The radius of a circle can be found with the equation of a circle, we first need to find the center of a
+                circle
+                to complete the equation. It can be found by finding the intersection point of two right bisectors of two
+                different chords. We will use chords \(\overline{BC}\) and \(\overline{AC}\).<br><br>
+    
+                Slope: \(m=\frac{\Delta y}{\Delta x}\) <br>Midpoint: \((\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})\) <br>Length:
+                \(d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\)<br> Circle: \((x-h)^2+(y-k)^2=r^2\)<br>Line: \(y=mx+b\)
+            </span><br>
+    
+            <span class="answer-part">
+                Find the negative reciprocal of the slope of \(\overline{BC}\):<br>
+                \(\frac{-6-(-3)}{-5-4}=\frac{1}{3}↺-3\)
+                <br>
+                Find the midpoint of BC:<br>
+                \((\frac{-5+4}{2},\frac{-6-3}{2})=(-0.5, -4.5)\)
+                <br>
+                Find the equation for the line that right bisects \(\overline{BC}\) by substituting the negative reciprocal
+                and the midpoint:<br>
+                <span class="equation">
+                    \begin{aligned}(-4.5)&=(-3)(-0.5)+b\\
+                    b&=(-6)\\
+                    y&=(-3)x-6\end{aligned}
+                </span><br>
+                <span class="mark">(2 marks)</span>
+            </span>
+            <br>
+            <span class="answer-part">
+                Point A is the midpoint of \(\overline{GH}\), use the midpoint equation:<br>
+                \((\frac{-10+2}{2}, \frac{-4+6}{2})=(-4, 1)\)
+                <br>
+                Find the negative reciprocal of \(\overline{AC}\):<br>
+                \(\frac{1-(-3)}{-4-4}=\frac{-1}{2}↺2\)
+                <br>
+                Find the midpoint of \(\overline{AC}\):<br>
+                \((\frac{-4+4}{2}, \frac{-6+(-3)}{2})=(0, 1)\)
+                <br>
+                Find the equation for the line that right bisects \(\overline{AC}\) by substituting the negative reciprocal
+                and the midpoint:<br>
+                <span class="equation">
+                    \begin{aligned}(-1)&=(2)(0)+b\\
+                    b&=(-1)\\
+                    y&=(2)x-1\end{aligned}
+                </span><br>
+                <span class="mark">(2 marks)</span>
+            </span>
+            <br>
+            <span class="answer-part">
+                Set the right bisector equations to equal each other, solve for \(x\):<br>
+                <span class="equation">
+                    \begin{aligned}
+                    (-3)x-6&=2x-1\\
+                    (-5)&=5x\\
+                    (-1)&=x
+                    \end{aligned}
+                </span><br>
+                Substitute in \(x\) into one of the equations to solve for \(y\):<br>
+                <span class="equation">
+                    \begin{aligned}
+                    y&=2(-1)-1\\
+                    y&=(-3)
+                    \end{aligned}
+                </span><br>
+                The equation of the circle is:<br>
+                \((x+1)^2+(y+3)^2=r^2\)
+                <br>
+                Substitute a point on the circle into the equation and solve for \(r\):
+                <span class="equation">
+                    \begin{aligned}
+                    (4+1)^2+((-3)+3)^2&=r^2\\
+                    25+0&=r^2\\
+                    5&=r
+                    \end{aligned}
+                </span><br>
+                <span class="mark">(2 marks)</span>
+            </span><br>
+    
+            \(∴ \text{The radius of the circle is 5}\)<span class="mark"> (2 marks)</span>
+            <br>
+            <br>
+            <span class="answer-num">2.</span><br>
+            <span class="answer-part">
+                Find the midpoint between Bob and Alice's house:<br>
+                \((\frac{-8+2}{2},\frac{8+(-4)}{2})=(-3, 2)\)
+                <br>
+                Find the negative reciprocal of the slope of the line between Bob and Alice's house:<br>
+                \(\frac{8-(-4)}{-8-2}=-\frac{6}{5}↺\frac{5}{6}\)
+                <br>
+                Substitute the negative reciprocal and the midpoint to solve the line that is equidistant from each house:<br>
+                <span class="equation">
+                    \begin{aligned}
+                    2&=\frac{5}{6}(-3)+b\\
+                    b&=4.5\\
+                    y&=\frac{5}{6}x+4.5
+                    \end{aligned}
+                </span>
+                <br><span class="mark">(1 mark)</span>
+            </span>
+            <br>
+            <span class="answer-part">
+                Set that  equation and the power line equation to equal each other, solve for \(x\):<br>
+                <span class="equation">
+                    \begin{aligned}
+                    \frac{5}{6}x+4.5&=-\frac{1}{2}x-7.5\\
+                    12&=-\frac{4}{3}x\\
+                    (-9)&=x
+                    \end{aligned}
+                </span><br>
+                Substitute \(x\) into one of the equations to solve for \(y\):<br>
+                <span class="equation">
+                    \begin{aligned}
+                    y&=\frac{5}{6}(-9)+4.5\\
+                    y&=(-3)
+                    \end{aligned}
+                </span><br>
+                <span class="mark">(2 marks)</span>
+            </span>
+            <br>
+            \(∴ \text{The the wind turbine must be built at (-9, -3)}\)<span class="mark"> (2 marks)</span>
+        </p>
+        <footer title="Web Design!">
+            Benjamin Low<br>
+            MPM2D3-02<br>
+            2020/06/16
+        </footer>
+    </div>
+</body>
+
+</html>

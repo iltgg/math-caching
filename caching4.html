@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Math Caching</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mathusummut/confetti.js/confetti.min.js"></script>
+    <script src="scripts/script-caching-four.js" defer></script>
+</head>
+
+<body>
+
+    <div class="main-article">
+        <a href="index.html" class="home">↩ Home</a>
+        <h1 class="title">Math Caching</h1>
+        <h2>Chapter 1 Functions Review</h2>
+        <span class="jump">Jump to <a href="#clue" class="jump-link">clue</a></span>
+
+        <p>
+            <strong>Domain -</strong> The set of all values of the independent variable of a relation.<br>
+            <strong>Range -</strong> The set of all values of the dependent variable of a relation.<br>
+            <strong>Relation -</strong> A set of ordered pairs, values of the independent variable are related to values of the dependent
+            variable.<br>
+            <strong>Function -</strong> A relation where each value of the independent variable, corresponds to only one value of the
+            dependent variable. Functions can be represented in different ways, such as a table of values of a graph.
+            You can check if a graph is a function by seeing if any vertical lines drawn through it would intercept more
+            than one point, this shows that there is only one element in the range for each element of the domain.<br>
+            <span class="image-duo">
+                <img src="images/function.PNG" width="300">
+                <img src="images/not-function.PNG" width="300">
+            </span>
+            <span class="image-duo-def">Function <span class="image-duo-def-right">Not a function</span></span>
+        </p>
+
+        <p>
+            <strong>Function notation -</strong> Notation, such as \(f(x)\) used to represent the value of the dependent variable for a
+            given independent variable, x the input. \(f(x)\) can be read as “f at x”, and is interchangeable with y.
+            \(f(x)=(x+2)^2\) is the same as \(y=(x+2)^2\), f(3) = 25 would mean that at \(x= 3\), f takes the value 25.
+        </p>
+
+        <p>
+            <strong>Family -</strong> All functions are part of a family, a family is a collection of functions that share common
+            characteristics.<br>
+            <strong>Parent Function -</strong> The simplest form of the function in a family.<br>
+            PARENT FUNCTION TABLE
+        </p>
+
+        <p>
+            The domain and range of a function can be determined from a graph, table of values, or the equation. This
+            can be represented in set notation, e.g. \(\{x\in \mathbb{R} |0 \leq x < 30\}\), this means “the set of all values x
+                that belong to the set of real numbers, such that x is greater than or equal to 0 and less than 50.” “|”
+                means such that. <br>The domain and range of a function will be restrained by the family of the function,
+                and any real-world restrictions, for example lengths of a square does not make sense. </p>
+
+                <p>
+                    The inverse of a function is the reverse of the original, it undoes all the operations. It can be
+                    found by doing all the operations in reverse, switch the two variables, and solve for the previously
+                    independent variable.<br>
+                    <span class="equation">
+                        \begin{aligned}
+                        y&=3x+5\\
+                        x&=3y+5\\
+                        x-5&=3y\\
+                        y&=\frac{x-5}{3}
+                        \end{aligned}
+                    </span><br>
+                    To notate and inverse function, a superscript “-1” is placed above the “f”
+                    \(f^-1\) is the the inverse of function \(f\)<br>
+                    This means that if point (a, b) lies on graph \(y=f(x)\), then (b, a) will lie on graph
+                    \(y=f^-1(x)\). This means that the domain of \(f\) is the range of \(f^-1\) and vice versa.<br>
+                    The graph of the inverse is a reflection of the original function of line \(y=x\)
+                </p>
+
+                <p>
+                    \(g(x)=af[k(x-d)]+c\) describes a transformation of graph \(f\), the \(f\) represents the parent
+                    function, if \(f(x)=x^2\), than \(g(x)=a[k(x-d)^2]+c\)
+                <ul>
+                    <li>
+                        \(a\) - The vertical compression/stretch factor.<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;When \(|a| > 1\), the graph is stretched vertically by the factor of \(|a|\).<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;When \(0 < |a| < 1\), the graph is compressed vertically by the factor \(|a|\).<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;When \(a < 0\),
+                            the graph is also reflected on the x-axis. </li>
+                    <li>
+                        \(k\) - The horizontal stretch factor<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;When \(|k| > 1\), the graph is compressed horizontally by the factor of \(\frac{1}{|k|}\).<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;When \(0 < |k| < 1\), the graph is stretched horizontally by the factor \(\frac{1}{|k|}\).<br>&nbsp;&nbsp;&nbsp;&nbsp;When
+                            \(k < 0\), the graph is also reflected on the y-axis. </li>
+                    <li>
+                        \(d\) - Horizontal translation<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;For \(d > 0\), the graph is translated \(d\) units right.<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;For \(d < 0\), the graph is translated \(d\) units left. </li>
+                    <li>
+                        \(c\)- Vertical translation<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;For \(c > 0\), the graph is translated \(c\) units up.<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;For \(c < 0\), the graph is translated \(c\) units down. </li>
+                </ul>
+                <p>
+                    When applying transformations to a graph, the stretches, compressions, and reflections are applied
+                    first, then the translations.
+                </p>
+        </p>
+
+        <h2 id="clue">Math Caching Clue</h2>
+        <ol>
+            Useful symbols: ∈ ℝ ≠ ≤ ≥<br><br>
+            <li>
+                State the domain and range of each relation, and wether or not they are a function. Input answers without spaces with special character above, e.g. {x∈ℝ|0&lt;x} or (1,2,3,4) <br>
+                <img src="images/chapter-1F-q1-a.PNG" height="600"><br>
+                <select class="function a">
+                    <option value="function">Function</option>
+                    <option value="not-function">Not Function</option>
+                </select><span class="mark">(1 mark)</span><br>
+                <input type="text" placeholder="Domain" class="answer-input ad"><span class="mark">(1 mark)</span><br>
+                <input type="text" placeholder="Range" class="answer-input ar"><span class="mark">(1 mark)</span><br>
+                <img src="images/chapter-1F-b.PNG" height="600"><br>
+                <select class="function b">
+                    <option value="function">Function</option>
+                    <option value="not-function">Not Function</option>
+                </select><span class="mark">(1 mark)</span><br>
+                <input type="text" placeholder="Domain" class="answer-input bd"><span class="mark">(1 mark)</span><br>
+                <input type="text" placeholder="Range" class="answer-input br"><span class="mark">(1 mark)</span><br>
+                <img src="images/chapter-1F-d.PNG" height="400"><br>
+                <select class="function d">
+                    <option value="function">Function</option>
+                    <option value="not-function">Not Function</option>
+                </select><span class="mark">(1 mark)</span><br>
+                <input type="text" placeholder="Domain" class="answer-input dd"><span class="mark">(1 mark)</span><br>
+                <input type="text" placeholder="Range" class="answer-input dr"><span class="mark">(1 mark)</span><br>
+            </li>
+            <li>
+            \(f(x)=x^2\) fill in the table for \(-f(2x)-2\)<br>
+            <table>
+                <tr>
+                    <th>x</th>
+                    <th>y</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td><input type="text" class="answer-inputs a"><span class="mark">(1 mark)</span></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><input type="text" class="answer-inputs b"><span class="mark">(1 mark)</span></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><input type="text" class="answer-inputs c"><span class="mark">(1 mark)</span></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><input type="text" class="answer-inputs d"><span class="mark">(1 mark)</span></td>
+                </tr>
+            </table>
+            </li>
+        </ol>
+        <input type="submit" class="submit" value="Check Answers">
+        <span class="correct">✔️ Correct! Thank your for playing Math Caching!</span>
+        <span class="incorrect">❌ Incorrect, please try again.</span>
+        <div class="line"></div>
+        <input type="button" class="answer" value="View Answers">
+        <p class="answers">
+            <span class="answer-num">1.</span>
+            <span class="answer-part">
+                <img src="images/chapter-1F-q1-a.PNG" height="200"><br>
+                Not a function, fails vertical line test.<br>
+                D: {x∈ℝ|-2.5≤x≤2.5}<br>
+                R: {y∈ℝ|-5≤y≤5}<br>
+                <span class="mark">(3 marks)</span>
+            </span><br>
+            <span class="answer-part">
+                <img src="images/chapter-1F-b.PNG" height="200"><br>
+                Function, passes vertical line test.<br>
+                D: {x∈ℝ}<br>
+                R: {y∈ℝ|-6≤y} (remember the vertex)<br>
+                <span class="mark">(3 marks)</span>
+            </span><br>
+            <span class="answer-part">
+                <img src="images/chapter-1F-c.PNG" height="200"><br>
+                Function, passes vertical line test.<br>
+                D: {x∈ℝ|x≠-5} (remember that a reciprocal function has two lines it will never touch)<br>
+                R: {y∈ℝ|y≠2}<br>
+                <span class="mark">(3 marks)</span>
+            </span><br>
+            <span class="answer-num">2.</span><br>
+            <span class="answer-part">
+                If \(f(x)=x^2\) than \(-f(2x)-2 = -(2x)^2-2\)<br>
+                Plug in the different \(x\) values to get the \(y\) values:<br>
+                <span class="equation">
+                    \begin{aligned}
+                    y&=-(2x)^2-2\\
+                    y&=-(2(0))^2-2\\
+                    y&=-2
+                    \end{aligned}
+                    \begin{aligned}
+                    y&=-(2(1))^2-2\\
+                    y&=-6
+                    \end{aligned}
+                    \begin{aligned}
+                    y&=-(2(2))^2-2\\
+                    y&=-18
+                    \end{aligned}
+                    \begin{aligned}
+                    y&=-(2(3))^2-2\\
+                    y&=-38
+                    \end{aligned}
+                </span><br>
+                <span class="mark">(4 marks)</span>
+            </span>
+        </p>
+        <footer>
+            Benjamin Low<br>
+            MPM2D3-02<br>
+            2020/06/16
+        </footer>
+    </div>
+</body>
+
+</html>
+∈ ℝ ≠ ≤ ≥
